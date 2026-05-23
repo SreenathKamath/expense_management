@@ -1,4 +1,5 @@
-from fastapi import FastAPI, Basesettings
+from fastapi import FastAPI
+from pydantic-settings import Basesettings
 
 class Settings(BaseSettings):
     DB_USERNAME: str
